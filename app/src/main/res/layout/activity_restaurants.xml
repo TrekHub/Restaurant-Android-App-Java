@@ -19,6 +19,8 @@
         android:layout_height="wrap_content"
         android:id="@+id/listview"
         android:layout_below="@+id/locationTextView"
-        android:layout_alignParentEnd="true"/>
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        />
 
 </RelativeLayout>

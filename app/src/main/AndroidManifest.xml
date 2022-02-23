@@ -10,8 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyRestaurant">
         <activity
-            android:name=".RestaurantsActivity"
-            android:exported="false" />
+            android:name=".RestaurantsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.myrestaurant.MainActivity">
+            </meta-data>
+        </activity>
         <activity
             android:name=".MainActivity"
             android:exported="true">
